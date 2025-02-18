@@ -4,15 +4,74 @@ Pengambilan data ini menggunakan query : '("Generative" OR "Conversational") OR 
 
 Data yang simpan dalam file CSV hanya yang dipublikasi pada tahun 2020-2025.
 
-TASK: 
+Data yang di simpan sejumlah 415 data judul paper.
 
-Data yang disimpan berupa Title, Tahun, URL, dan Abstrak.
+Text Cleaning yang dilakukan
+        
+        Beberapa tahap text cleaning yang dilakukan:
 
-        dataset mentah (file teks/csv)
+        Lowercasing: Mengubah teks menjadi huruf kecil.
 
-        Notebook/script
+        Removing Punctuation & Special Characters: Menghapus tanda baca.
 
-        Deskripsi data
+        Removing Numbers: Menghapus angka dari teks.
+
+        Tokenization: Memisahkan teks menjadi kata-kata.
+
+        Stopword Removal: Menghapus kata-kata umum yang tidak memiliki makna penting.
+
+        Lemmatization: Mengubah kata menjadi bentuk dasarnya.
+
+
+Dari data yang sudah dilakukan proses Cleaning diperoleh hasil:
+
+        📊 20 Kata Paling Sering Muncul:
+
+                conversational: 283
+
+                agent: 226
+
+                generative: 96
+
+                chatbot: 70
+
+                ai: 59
+
+                using: 38
+
+                chat: 32
+
+                learning: 31
+
+                model: 31
+
+                artificial: 30
+
+                intelligence: 28
+
+                health: 27
+
+                emotion: 25
+
+                study: 25
+
+                chatgpt: 25
+
+                emotional: 24
+
+                system: 23
+
+                interaction: 23
+
+                user: 23
+
+                support: 22
+
+
+Named Entity Recognition
+
+
+
 
 Lakukan pra-pemrosesan dan analisis awal (misalnya text cleaning, tokenisasi, perhitungan frekuensi kata, serta simple insight tentang data)
 
@@ -20,4 +79,3 @@ Lakukan pra-pemrosesan dan analisis awal (misalnya text cleaning, tokenisasi, pe
 
 Lakukan analisis sederhana misalkan frekuensi kata, NER, dsb
 
-Buat penjelasan dalam sebuah repositori Github (sertakan datanya)
